@@ -1,5 +1,5 @@
 module.exports = {
-    base: "/",
+    base: process.env.NODE_ENV === "production" ? "/sbm-guide/" : "/",
     title: "SBM Guide",
     description: "Simple Business Manager - SBM Documentation",
     head: [
