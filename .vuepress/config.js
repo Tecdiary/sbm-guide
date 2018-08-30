@@ -9,9 +9,8 @@ module.exports = {
         ["meta", { name: "theme-color", content: "#3273dc" }],
         ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
         ["meta", { name: "apple-mobile-web-app-status-bar-style", content: "black" }],
-        ["link", { rel: "apple-touch-icon", href: `/images/icons/icon-152.png` }],
-        ["link", { rel: "mask-icon", href: "/images/safari-pinned-tab.svg", color: "#3273dc" }],
-        ["meta", { name: "msapplication-TileImage", content: "/images/msapplication-icon-144.png" }],
+        ["link", { rel: "apple-touch-icon", href: `/images/icon-152.png` }],
+        ["meta", { name: "msapplication-TileImage", content: "/images/icon-144.png" }],
         ["meta", { name: "msapplication-TileColor", content: "#3273dc" }]
     ],
     dest: "docs",
