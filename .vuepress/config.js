@@ -69,7 +69,7 @@ module.exports = {
         serviceWorker: {
             updatePopup: true,
             updatePopup: {
-                message: "New version is available for documentation.",
+                message: "A new version is available for documentation.",
                 buttonText: "Refresh"
             }
         }
