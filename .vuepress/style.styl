@@ -1,0 +1,88 @@
+body
+    background-color hsl(0, 0%, 94%)
+    font-family: 'Montserrat', BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+#app
+    .navbar .nav-links
+        .nav-item:nth-child(3)
+            .nav-link.external
+                color #fff
+                border-radius 3px
+                padding .25rem .5rem
+                background hsl(171, 100%, 41%)
+                &:hover
+                    background darken(hsl(171, 100%, 41%), 20%)
+        .repo-link
+            display none
+
+    .sidebar
+        border-right none
+        background-color hsl(0, 0%, 86%)
+        .repo-link
+            display none
+
+    .sidebar-group:not(.collapsable) .sidebar-heading,
+    .sidebar-heading
+        font-weight 100
+
+    .sidebar-heading .arrow.right
+        border-left 6px solid hsl(0, 0%, 50%)
+
+    .sidebar-heading .arrow.down
+        border-top 6px solid hsl(0, 0%, 50%)
+
+
+.icon.outbound
+    display none
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+    font-weight 100
+
+h1 .header-anchor,
+h2 .header-anchor,
+h3 .header-anchor,
+h4 .header-anchor,
+h5 .header-anchor,
+h6 .header-anchor
+    opacity 1
+    color hsl(0, 0%, 86%)
+    &:hover
+        font-weight 400
+        text-decoration none !important
+
+.content:not(.custom)
+    padding 4rem 2.5rem 1rem
+
+    div[class*="language-"]
+        border-radius 3px
+
+.table-of-contents
+    ul
+        list-style none
+        list-style-position outside
+
+    > ul
+        padding-left 0
+
+        > li
+            padding 0
+            margin 0
+
+    a:hover
+        text-decoration none !important
+        opacity 0.75
+
+    a:active
+        text-decoration none !important
+        opacity 0.9
+
+    a:before
+        content '# '
+        color #bbb
+        margin-left -15px
+        margin-right 3px

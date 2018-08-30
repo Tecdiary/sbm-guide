@@ -6,8 +6,8 @@
     "author": "Mian Saleem <saleem@tecdiary.com>",
     "license": "MIT",
     "scripts": {
-        "docs:dev": "vuepress dev",
-        "docs:build": "vuepress build"
+        "serve": "vuepress dev",
+        "build": "vuepress build"
     },
     "devDependencies": {
         "vuepress": "^0.14.2"
