@@ -24,6 +24,9 @@ body
     .sidebar-group:not(.collapsable) .sidebar-heading,
     .sidebar-heading
         font-weight 400
+        color hsl(0, 0%, 29%)
+        &:hover, &:active, &.open
+            color hsl(0, 0%, 21%)
 
     .sidebar-heading .arrow.right
         border-left 6px solid hsl(0, 0%, 50%)
@@ -69,12 +72,12 @@ h6 .header-anchor
             margin 0
 
     a:hover
+        opacity 0.8
         text-decoration none !important
-        opacity 0.75
 
     a:active
+        opacity 1
         text-decoration none !important
-        opacity 0.9
 
     a:before
         content '# '
