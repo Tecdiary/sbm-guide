@@ -7,7 +7,7 @@
     "license": "MIT",
     "scripts": {
         "serve": "vuepress dev",
-        "build": "vuepress build"
+        "build": "vuepress build && cp -a ./assets/ ./docs"
     },
     "devDependencies": {
         "vuepress": "^0.14.2"

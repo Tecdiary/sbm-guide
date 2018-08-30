@@ -3,14 +3,14 @@ module.exports = {
     title: "SBM Guide",
     description: "Simple Business Manager - SBM Documentation",
     head: [
-        ["link", { rel: "icon", href: `/images/icon.png` }],
+        ["link", { rel: "icon", href: `/assets/img/icon.png` }],
         ["link", { href: "https://fonts.googleapis.com/css?family=Montserrat:100,400,400i", rel: "stylesheet", type: "text/css" }],
         ["link", { rel: "manifest", href: "/manifest.json" }],
         ["meta", { name: "theme-color", content: "#3273dc" }],
         ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
         ["meta", { name: "apple-mobile-web-app-status-bar-style", content: "black" }],
-        ["link", { rel: "apple-touch-icon", href: `/images/icon-152.png` }],
-        ["meta", { name: "msapplication-TileImage", content: "/images/icon-144.png" }],
+        ["link", { rel: "apple-touch-icon", href: `/assets/img/icon-152.png` }],
+        ["meta", { name: "msapplication-TileImage", content: "/assets/img/icon-144.png" }],
         ["meta", { name: "msapplication-TileColor", content: "#3273dc" }]
     ],
     dest: "docs",
