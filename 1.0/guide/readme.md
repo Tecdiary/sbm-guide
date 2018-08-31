@@ -8,6 +8,8 @@ Simple Business Manager is designed & developed to suit most of the business nee
 
 You can change the main menus position from settings, it could be on top or left sidebar.
 
+All the tables are filter-able/search-able/sort-able with responsive styles, on the small screens, you can scroll to left to see data.
+
 ## Dashboard
 
 Dashboard has 3 charts at this moment.
@@ -23,3 +25,7 @@ Calendar UI is simple & easy, you can add events and they will be displayed on c
 ## Activity Logs
 
 SMA will automatically logs all the activity in your app for super-admins only.
+
+## Table Design
+
+![Table Image](/assets/img/table-design.png "Table Design")
