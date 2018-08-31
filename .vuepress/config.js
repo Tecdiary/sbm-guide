@@ -43,7 +43,7 @@ module.exports = {
                 collapsable: true,
                 children: [
                     "1.0/guide/",
-                    "1.0/guide/customers-vendors",
+                    "1.0/guide/products-customers-vendors",
                     "1.0/guide/invoices-purchases",
                     "1.0/guide/expenses-incomes",
                     "1.0/guide/accounts-transfers",
