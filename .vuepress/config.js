@@ -31,7 +31,7 @@ module.exports = {
             {
                 title: "General",
                 collapsable: true,
-                children: ["/"]
+                children: ["/", "1.0/credit/"]
             },
             {
                 title: "Installation",
@@ -54,11 +54,6 @@ module.exports = {
                 title: "FAQs",
                 collapsable: true,
                 children: ["1.0/faqs/"]
-            },
-            {
-                title: "Credit",
-                collapsable: true,
-                children: ["1.0/credit/"]
             },
             {
                 title: "Developer Guide",
