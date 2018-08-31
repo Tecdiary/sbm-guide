@@ -4,7 +4,7 @@ module.exports = {
     description: "Simple Business Manager - SBM Documentation",
     head: [
         ["link", { rel: "icon", href: `/assets/img/icon.png` }],
-        ["link", { href: "https://fonts.googleapis.com/css?family=Montserrat:100,400,400i", rel: "stylesheet", type: "text/css" }],
+        ["link", { href: "https://fonts.googleapis.com/css?family=Montserrat:300,400,400i", rel: "stylesheet", type: "text/css" }],
         ["link", { rel: "manifest", href: "/manifest.json" }],
         ["meta", { name: "theme-color", content: "#3273dc" }],
         ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
