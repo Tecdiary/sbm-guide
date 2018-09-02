@@ -1,6 +1,6 @@
 # Installation Guide
 
-#### We have added the installer for easy installation experience and it can be access /install
+#### We have added the installer for easy installation experience and it can be accessed by adding `/install` at the end url.
 
 [[toc]]
 
@@ -8,9 +8,9 @@
 
 You can access the installer by added `/install` at the end of your domain i.e,
 
--   `http://yourdomain.com/install` for main domain installation
--   `http://yourdomain.com/subfolder/install` for sub directory installation
--   `http://subdomain.yourdomain.com/install` for sub domain directory installation
+-   `https:` // `yourdomain.com` / `install` for main domain installation
+-   `https:` // `yourdomain.com` / `subfolder` / `install` for sub directory installation
+-   `https:` // `subdomain.yourdomain.com` / `install` for sub domain directory installation
 
 You will need to prepare these details (mentioned at installer page)
 

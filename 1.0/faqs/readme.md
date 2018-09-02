@@ -95,7 +95,7 @@ Yes, you can add recurring invoice and system will generate invoice and payment 
 
 If you are not getting any error but blank red alert or CloudFlare Security error mean your request is no reaching to verification server. Please check that you server is not blocking the curl request and secondly there are chances that CloudFlare might be challenging your request due to various reasons. Please check with your host and request them to white list CloudFlare ips https://www.cloudflare.com/ips Updating your Anti-Virus and Browser might help. You can check with your host too.
 
-You can try different host and/or install it locally with any web platform `easyphp`/`lamp`/`mamp`/`wamp`/`xampp`.
+You can try different host and/or install it locally with any web platform `easyphp` / `lamp` / `mamp` / `wamp` / `xampp`.
 
 ### Why am I getting 500 Internal Server Error?
 
