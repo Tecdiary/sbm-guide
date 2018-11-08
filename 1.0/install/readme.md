@@ -29,7 +29,7 @@ Please read the license details and accept.
 
 ## Step 3: Pre-Install Checklist
 
-If there is any server config change required, you will see the details on this page. You need to resolve these before proceeding to next step. If you are not sure about any issue, simple google it or check with your host/server administrator.
+If there is any server config change required, you will see the details on this page. You need to resolve these before proceeding to next step. If you are not sure about any issue, simply Google it or check with your host/server administrator.
 
 ## Step 4: Verify your License
 

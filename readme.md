@@ -58,7 +58,15 @@ We have tried to make this documentation as comprehensive as we can and will kee
         -   Can add products, customers, vendors, invoices, purchases & payments
 -   Progressive Web App, you can add it to home on your tablet/mobile devices and use as mobile application. All the get requests will be cached but you need to be online to make post/put/delete requests.
 
-Reports has not yet added as we need your feedback. Once we have enough data and finalized the reports, we will add them within a month.
+## Available Reports
+
+We has added 5 reports. For more reports, we need your feedback. Once we have enough data and finalized the reports, we will add them in future updates.
+
+1.  **General Report** displays total income, expense, invoice and purchase amounts.
+2.  **Customer Report** displays customer related general report.
+3.  **Vendor Report** displays vendor related general report.
+4.  **User Report** displays user related general report.
+5.  **Tax Report** displays tax related data with amounts.
 
 ## Report Bug
 
@@ -70,7 +78,7 @@ We will be working closely with all of you to resolve the issues/bugs/error as s
 
 ## Demo Details
 
-Link: [https://sbm.ngartist.com/](https://sbm.ngartist.com/)
+Link: [https://sbm.tecdiary.com/](https://sbm.tecdiary.com/)
 
 You can select super, admin or staff to login as and try our demo.
 

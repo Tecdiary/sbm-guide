@@ -21,7 +21,7 @@ There are 3 user roles at this moment in SMB
 
 ## Settings
 
-Settings module is perform many system related configurational changes and has the following sub-sections.
+Settings module can perform many system related configuration and has the following sub-sections.
 
 ### App Settings
 
@@ -47,7 +47,7 @@ Invoice settings are the invoicing/seller company details with following
 8.  5 Extra detail fields with label and value option
 9.  Invoice footer - to display at the end of the invoice
 10. Logo - if you want to change the logo
-11. Template - 3 templates to chose from
+11. Template - 3 templates to choose from
 
 ### System Settings
 
@@ -67,7 +67,7 @@ System level settings with following
         3.  SendMail
         4.  SMTP
         5.  SparkPost
-7.  Currency Code - 3 digit iso currency code
+7.  Currency Code - 3 digit ISO currency code
 8.  Enable/Disable PayPal
 9.  Accept credit/debit card payments with
     1.  Stripe
@@ -85,7 +85,7 @@ This page will help you to update email template, the template can be selected f
 
 ### Taxes
 
-You add add all taxes before adding any products and then assign then to products as you need. Taxes have the following fields
+You can add all taxes before adding any products and then assign then to products as you need. Taxes have the following fields
 
 1.  Code
 2.  Name

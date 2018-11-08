@@ -20,7 +20,7 @@ The add invoice page has the following fields
 10. Draft - if invoice is still a draft
 11. Add payment for invoice
 
-Once you un-check the draft invoice, the invoice will be finalized and the grand total amount will beed to the customer balance. If the add payment was chceked, the payment will be added. Customer will be notified about the invoice and payment request.
+Once you unchecked the draft invoice, the invoice will be finalized and the grand total amount will be added to the customer balance. If the add payment was checked, the payment will be added and customer will be notified about the invoice and payment request.
 
 ## Purchases
 
@@ -40,7 +40,7 @@ The add purchase page has the following fields
 10. Draft - if purchase is still a draft
 11. Add payment for purchase
 
-Once you un-check the draft purchase, the purchase will be finalized and the grand total amount will beed to the vendor balance. You can add payment from vendors list as you pay to them.
+Once you unchecked the draft purchase, the purchase will be finalized and the grand total amount will be added to the vendor balance. You can add payment from vendors list as you pay to them.
 
 ## Payments
 

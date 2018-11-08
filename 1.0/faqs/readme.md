@@ -40,11 +40,11 @@ Yes, you can install this item on localhost with any web platform xampp, mamp, l
 
 ### Can I use it offline if I have installed it on live server?
 
-SBM has option to cache the get requests only. You won't be able to post any data but if you have visited the page before and internet is down, you will be able to view the page (it will be loaded from cache).
+SBM has option to cache the get requests only. You won't be able to post any data but if you have visited the page before and Internet is down, you will be able to view the page (it will be loaded from cache).
 
 ### Will I get the full source code?
 
-Yes, for Developer and Extended Licenses. For Regular license you will only get back-end code and won't be able to modify the front-end.
+Yes, for Developer and Extended Licenses. For Regular license, you will only get back-end code and won't be able to modify the front-end.
 
 ### Can I can sell the products even if I don't have stock?
 
@@ -93,7 +93,7 @@ Yes, you can add recurring invoice and system will generate invoice and payment 
 
 ### Why am I getting CloudFlare Security or Blank error on verification while installation the item?
 
-If you are not getting any error but blank red alert or CloudFlare Security error mean your request is no reaching to verification server. Please check that you server is not blocking the curl request and secondly there are chances that CloudFlare might be challenging your request due to various reasons. Please check with your host and request them to white list CloudFlare ips https://www.cloudflare.com/ips Updating your Anti-Virus and Browser might help. You can check with your host too.
+If you are not getting any error but blank red alert or CloudFlare Security error mean your request is no reaching to verification server. Please check that you server is not blocking the curl request and secondly there are chances that CloudFlare might be challenging your request due to various reasons. Please check with your host and request them to white list CloudFlare IPs https://www.cloudflare.com/ips Updating your Anti-Virus and Browser might help. You can check with your host too.
 
 You can try different host and/or install it locally with any web platform `easyphp` / `lamp` / `mamp` / `wamp` / `xampp`.
 
@@ -114,4 +114,4 @@ Please make sure that your database server is up and running, then check .env fi
 
 ### Why some products are missing from order when I add 100+ products?
 
-There is no restriction in SBM code on the number of order items. If you are having such issue, please check your php configuration file (php.ini) for `max_input_vars` and set it to higher number i.e, 10000. You might need to increase `max_input_time` and `max_execution_time` too.
+There is no restriction in SBM code on the number of order items. If you are having such issue, please check your PHP configuration file (php.ini) for `max_input_vars` and set it to higher number i.e, 10000. You might need to increase `max_input_time` and `max_execution_time` too.
