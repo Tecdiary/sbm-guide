@@ -60,7 +60,11 @@ We have tried to make this documentation as comprehensive as we can and will kee
 
 ## Emails
 
-System will send emails as following (disabled on demo):
+::: warning Disabled on demo
+Emails are disabled on demo.
+:::
+
+System will send emails as following:
 
 1. **User Created** - User will be informed once created by super
 2. **Admin Reset User Password** - User will be informed once password reset by super
@@ -69,7 +73,9 @@ System will send emails as following (disabled on demo):
 5. **Payment Created** - Customer/Vendor will be informed that payment has been created
 6. **Payment Received** - Customer will be informed that payment has been received
 
+::: warning Require feedback
 We will add more email options as we receive feedback from you.
+:::
 
 ## Available Reports
 
@@ -81,7 +87,9 @@ We has added 5 reports. For more reports, we need your feedback. Once we have en
 4.  **User Report** displays user related general report.
 5.  **Tax Report** displays tax related data with amounts.
 
+::: warning Require feedback
 We will add more reports as we receive feedback from you.
+:::
 
 ## Report Bug
 
