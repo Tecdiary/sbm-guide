@@ -2,6 +2,10 @@
 
 [[toc]]
 
+## What's included
+
+Regular license doesn't come with front-end (vue), feature tests, database migrations & seed files. These all are included in developer license but developer license download file doesn't have vendor folder as you can run `composer install` and for front-end (vue) `yarn` or `npm i` I would recommend you to use yarn.
+
 ## Modify Order Templates
 
 Order template view files can be found in these folders
@@ -12,7 +16,7 @@ Order template view files can be found in these folders
     2.  **Simple** `resources` / `views` / `invoices` / `simple.blade.php`
     3.  **Modern** `resources` / `views` / `invoices` / `modern.blade.php`
 
--   **Purcahse Templates**
+-   **Purchase Templates**
 
     1.  **Minimal** `resources` / `views` / `purchases` / `minimal.blade.php`
     2.  **Simple** `resources` / `views` / `purchases` / `simple.blade.php`
@@ -73,8 +77,8 @@ main scss file `resources` / `assets` / `sass` / `app.scss`
 
 ### Do you provide customization/modification service?
 
-Yes, we do provide customization/modification. We charge $50/hours and availability depends on schedule. You can email to support@tecdiary.com with your requirements to get estimate.
+Yes, we do provide customization/modification. We charge \$50/hours and availability depends on schedule. You can email to support@tecdiary.com with your requirements to get estimate.
 
 ### I can't find answer in docs?
 
-If you can't find the answer here, you can email to support@tecdiary.com
+If you can't find the answer here, you can email to support@tecdiary.com but please don't ask modification related questions as we might not be able to help you with modifications as mentioned above.
