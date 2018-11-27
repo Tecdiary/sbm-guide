@@ -58,6 +58,19 @@ We have tried to make this documentation as comprehensive as we can and will kee
         -   Can add products, customers, vendors, invoices, purchases & payments
 -   Progressive Web App, you can add it to home on your tablet/mobile devices and use as mobile application. All the get requests will be cached but you need to be online to make post/put/delete requests.
 
+## Emails
+
+System will send emails as following (disabled on demo):
+
+1. **User Created** - User will be informed once created by super
+2. **Admin Reset User Password** - User will be informed once password reset by super
+3. **Invoice Created** - Customer will be informed that invoice has been created
+4. **Purchase Created** - Vendor will be informed that purchase has been created
+5. **Payment Created** - Customer/Vendor will be informed that payment has been created
+6. **Payment Received** - Customer will be informed that payment has been received
+
+We will add more email options as we receive feedback from you.
+
 ## Available Reports
 
 We has added 5 reports. For more reports, we need your feedback. Once we have enough data and finalized the reports, we will add them in future updates.
@@ -67,6 +80,8 @@ We has added 5 reports. For more reports, we need your feedback. Once we have en
 3.  **Vendor Report** displays vendor related general report.
 4.  **User Report** displays user related general report.
 5.  **Tax Report** displays tax related data with amounts.
+
+We will add more reports as we receive feedback from you.
 
 ## Report Bug
 

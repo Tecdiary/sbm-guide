@@ -18,6 +18,12 @@ There are 3 user roles at this moment in SMB
     -   Can't delete any data/records
     -   Can only view own added records for invoices, purchases & payments
     -   Can add products, customers, vendors, invoices, purchases & payments
+4.  **Customer** (site customer)
+    -   Can update customer company details
+    -   Can view own invoice, recurring invoice and payments
+5.  **Vendor** (site vendor)
+    -   Can update vendor company details
+    -   Can view own purchases and payments
 
 ## Settings
 
@@ -75,7 +81,7 @@ System level settings with following
     3.  PayPal Rest APIs
     4.  Authorize.net
 
-If you need any other card processing payment gateway, we can add it for fixed $250 charges (only for you) and $100 for shared (will be added to app for all others).
+If you need any other card processing payment gateway, we can add it for fixed $250 charges (only for you) and$100 for shared (will be added to app for all others).
 
 ### Email Templates
 

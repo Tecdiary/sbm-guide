@@ -74,6 +74,20 @@ SBM has 3 User Roles
     -   Can't delete any data/records
     -   Can only view own added records for invoices, purchases & payments
     -   Can add products, customers, vendors, invoices, purchases & payments
+4.  Customer (site customer)
+    -   Can update customer company details
+    -   Can view own invoice, recurring invoice and payments
+5.  Vendor (site vendor)
+    -   Can update vendor company details
+    -   Can view own purchases and payments
+
+### Which one is the default user role?
+
+No one is default, after you have added the user, please edit to assign roles.
+
+### Where can I assign role to user?
+
+After you have added the user, please edit new added user to assign roles as you need.
 
 ### Can I add new user role?
 
