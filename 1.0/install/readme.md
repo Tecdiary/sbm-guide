@@ -6,6 +6,10 @@
 
 ## Step 1: Preparation
 
+::: warning Developer License?
+If you have purchased developer license, please run install dependencies before following these steps by running `composer install`
+:::
+
 You can access the installer by added `/install` at the end of your domain i.e,
 
 -   `https:` // `yourdomain.com` / `install` for main domain installation
@@ -53,3 +57,7 @@ Please fill the form to create super user account.
 We are almost done, it's time to finalize the installation. If you need some demo data, you can generate from this page before pressing the **Finalize** button.
 
 **You must press the `Finalize` installation button to complete the installation.**
+
+::: tip Can I start again?
+Yes, if there is any issue on any step and you can't pass then you can cancel and start over again with new database or settings.
+:::
