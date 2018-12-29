@@ -2,7 +2,7 @@
 
 #### Simple Business Manager Documentation (version 1.0)
 
-## About SMB
+## About SBM
 
 **Simple Business Manager** (**SBM**) is all in once business solution developed by **Tecdiray IT Solutions**.
 
