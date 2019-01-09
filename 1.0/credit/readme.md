@@ -1,6 +1,6 @@
 # Credit
 
-![Vue Logo](/sbm-guide/assets/img/vue-logo.png "Vue Logo")
+![Vue Logo](/sbm-guide/assets/img/vue-logo.png 'Vue Logo')
 
 ### [Vue.js](https://vuejs.org/)
 
@@ -8,7 +8,7 @@
 
 ####
 
-![Laravel Logo](/sbm-guide/assets/img/laravel-logo.png "Laravel Logo")
+![Laravel Logo](/sbm-guide/assets/img/laravel-logo.png 'Laravel Logo')
 
 ### [Laravel](https://laravel.com/)
 
