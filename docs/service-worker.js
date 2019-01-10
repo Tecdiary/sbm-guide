@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "1f4c0999f5452949704fcbd775069c80"
+    "revision": "7007c7939fd7d0ad172b9a368ef82dc5"
   },
   {
     "url": "assets/css/0.styles.032ddd1c.css",
@@ -88,56 +88,56 @@ self.__precacheManifest = [
     "revision": "588725b72bbdab5359c026067860b4f0"
   },
   {
-    "url": "assets/js/app.afc3954a.js",
-    "revision": "b8f8d8595c255b2ad895a8d7b2e61ff1"
+    "url": "assets/js/app.ecaf410b.js",
+    "revision": "c11c3f15e5108574750ecd9d63dac51c"
   },
   {
     "url": "index.html",
-    "revision": "b254700dae94e29ee9f1d485f5a669d2"
+    "revision": "aa5eca30f41d04be59ff3c8967995ae3"
   },
   {
     "url": "v1/credit/index.html",
-    "revision": "20a3eac079e79670973f7acf457c4de3"
+    "revision": "b4ae5aedd8be0bbe75308acdc4c15d72"
   },
   {
     "url": "v1/developer-guide/index.html",
-    "revision": "5b46a3ced510728210362e569c472e83"
+    "revision": "1ceef04fddaaeb8520f4cf284cac6d25"
   },
   {
     "url": "v1/faqs/index.html",
-    "revision": "c6a201bfc018381767a2aa78c4ef6931"
+    "revision": "36d998a972d2e0b3e10faab918654f95"
   },
   {
     "url": "v1/guide/accounts-transfers.html",
-    "revision": "51fe915db242162e8a95d8bcc4274ab2"
+    "revision": "0942e97b1bbe7547d9c1cbbd1f81b55f"
   },
   {
     "url": "v1/guide/expenses-incomes.html",
-    "revision": "3d8f3963291b2179dc7c0dba93245306"
+    "revision": "da8e1c1152b91606d6e48cfbefbf6a36"
   },
   {
     "url": "v1/guide/index.html",
-    "revision": "23cda213b2210a90378776485fa53175"
+    "revision": "f874052b2831baf676ead996a313af2a"
   },
   {
     "url": "v1/guide/invoices-purchases.html",
-    "revision": "4cdc0af6fe0d82133b2520ccc2b2f664"
+    "revision": "015abb908c621ddc23c6de3d2a1d7bc8"
   },
   {
     "url": "v1/guide/products-customers-vendors.html",
-    "revision": "c8cb26c67dea01d468c1942bdd3512cd"
+    "revision": "6790800507dea2404a312d19d859607d"
   },
   {
     "url": "v1/guide/users-settings.html",
-    "revision": "7c7339f9c311d914578eebe364e1274a"
+    "revision": "6895d78d0333e4f3d8500bd93da80cd2"
   },
   {
     "url": "v1/install/index.html",
-    "revision": "cd0a99034188724eb8af26caa8682f04"
+    "revision": "a61e9cfe12daf1a20459acdccd9e667e"
   },
   {
     "url": "v1/install/service.html",
-    "revision": "bf067205580b91f6503c49441fb99a05"
+    "revision": "3e26adc5f3dae4b424f228972335acfd"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();

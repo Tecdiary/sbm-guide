@@ -12,6 +12,7 @@ function preProcessMd() {
             )
             .replace(/## Table Design/, pageBreak + '## Table Design')
             .replace(/\/sbm-guide\/assets\/img/gs, 'assets/assets/img')
+            .replace(/::: tip/gs, '<div class="tip">')
             .replace(/::: warning/gs, '<div class="warning">')
             .replace(/:::/gs, '</div>')
             .replace(/`composer install`/gs, '<code>composer install</code>')

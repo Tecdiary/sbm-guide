@@ -61,3 +61,10 @@ pre code {
     background: #ffc107;
     border-left: 5px solid #e0a800;
 }
+.tip {
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    background: #20c997;
+    border-left: 5px solid #28a745;
+}
