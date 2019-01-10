@@ -21,18 +21,18 @@ function preProcessMd() {
 }
 
 var mdDocs = [
-        'readme.md',
-        'v1/install/readme.md',
+        'README.md',
+        'v1/install/README.md',
         'v1/install/service.md',
-        'v1/credit/readme.md',
-        'v1/guide/readme.md',
+        'v1/credit/README.md',
+        'v1/guide/README.md',
         'v1/guide/products-customers-vendors.md',
         'v1/guide/invoices-purchases.md',
         'v1/guide/expenses-incomes.md',
         'v1/guide/accounts-transfers.md',
         'v1/guide/users-settings.md',
-        'v1/faqs/readme.md',
-        'v1/developer-guide/readme.md'
+        'v1/faqs/README.md',
+        'v1/developer-guide/README.md'
     ],
     bookPath = 'documentation.pdf';
 
