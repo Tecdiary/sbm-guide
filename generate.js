@@ -1,16 +1,6 @@
 const through2 = require('through2'),
     markdownpdf = require('markdown-pdf');
 
-// function preProcessMd() {
-//     var splitter = split();
-//     var replacer = through(function(data) {
-//         // this.queue(data.replace(/sbm-guide\/assets\/img/g, 'assets/img'));
-//         // this.queue(data.replace(/\[\[toc\]\]/g, ''));
-//     });
-//     splitter.pipe(replacer);
-//     return duplexer(splitter, replacer);
-// }
-
 function preProcessMd() {
     return through2((data, enc, cb) => {
         let pageBreak = "\n\n<div style='page-break-before: always;'></div>\n\n";
@@ -32,19 +22,19 @@ function preProcessMd() {
 
 var mdDocs = [
         'readme.md',
-        '1.0/install/readme.md',
-        '1.0/install/service.md',
-        '1.0/credit/readme.md',
-        '1.0/guide/readme.md',
-        '1.0/guide/products-customers-vendors.md',
-        '1.0/guide/invoices-purchases.md',
-        '1.0/guide/expenses-incomes.md',
-        '1.0/guide/accounts-transfers.md',
-        '1.0/guide/users-settings.md',
-        '1.0/faqs/readme.md',
-        '1.0/developer-guide/readme.md'
+        'v1/install/readme.md',
+        'v1/install/service.md',
+        'v1/credit/readme.md',
+        'v1/guide/readme.md',
+        'v1/guide/products-customers-vendors.md',
+        'v1/guide/invoices-purchases.md',
+        'v1/guide/expenses-incomes.md',
+        'v1/guide/accounts-transfers.md',
+        'v1/guide/users-settings.md',
+        'v1/faqs/readme.md',
+        'v1/developer-guide/readme.md'
     ],
-    bookPath = 'sbm-guide.pdf';
+    bookPath = 'documentation.pdf';
 
 var options = {
     preProcessMd,
@@ -54,10 +44,8 @@ var options = {
         breaks: true,
         syntax: ['header', 'footer']
     },
-    paperBorder: { top: '1cm', left: '2cm', bottom: '1cm', right: '2cm' },
-    cssPath: 'assets/style.css'
-    // cssPath: 'docs/assets/css/0.styles.032ddd1c.css',
-    // highlightCssPath: 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/atom-one-dark.min.css'
+    cssPath: 'assets/style.css',
+    paperBorder: { top: '1cm', left: '2cm', bottom: '1cm', right: '2cm' }
 };
 markdownpdf(options)
     .concat.from(mdDocs)

@@ -1,71 +1,71 @@
 module.exports = {
-    base: process.env.NODE_ENV === "production" ? "/sbm-guide/" : "/",
-    title: "SBM Guide",
-    description: "Simple Business Manager - SBM Documentation",
+    base: process.env.NODE_ENV === 'production' ? '/sbm-guide/' : '/',
+    title: 'SBM Guide',
+    description: 'Simple Business Manager - SBM Documentation',
     head: [
-        ["link", { rel: "icon", href: `/assets/img/icon.png` }],
-        ["link", { href: "https://fonts.googleapis.com/css?family=Montserrat:300,400,400i", rel: "stylesheet", type: "text/css" }],
-        ["link", { rel: "manifest", href: "/manifest.json" }],
-        ["meta", { name: "theme-color", content: "#3273dc" }],
-        ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
-        ["meta", { name: "apple-mobile-web-app-status-bar-style", content: "black" }],
-        ["link", { rel: "apple-touch-icon", href: `/assets/img/icon-152.png` }],
-        ["meta", { name: "msapplication-TileImage", content: "/assets/img/icon-144.png" }],
-        ["meta", { name: "msapplication-TileColor", content: "#3273dc" }]
+        ['link', { rel: 'icon', href: `/assets/img/icon.png` }],
+        ['link', { href: 'https://fonts.googleapis.com/css?family=Montserrat:300,400,400i', rel: 'stylesheet', type: 'text/css' }],
+        ['link', { rel: 'manifest', href: '/manifest.json' }],
+        ['meta', { name: 'theme-color', content: '#3273dc' }],
+        ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+        ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+        ['link', { rel: 'apple-touch-icon', href: `/assets/img/icon-152.png` }],
+        ['meta', { name: 'msapplication-TileImage', content: '/assets/img/icon-144.png' }],
+        ['meta', { name: 'msapplication-TileColor', content: '#3273dc' }]
     ],
-    dest: "docs",
+    dest: 'docs',
     serviceWorker: true,
     themeConfig: {
-        repo: "tecdiary/sbm-guide",
-        docsBranch: "master",
+        repo: 'tecdiary/sbm-guide',
+        docsBranch: 'master',
         editLinks: true,
-        editLinkText: "Help us improve this page!",
+        editLinkText: 'Help us improve this page!',
         displayAllHeaders: true,
-        lastUpdated: "Last Updated",
+        lastUpdated: 'Last Updated',
         nav: [
-            { text: "Home", link: "/" },
-            { text: "Report Bug", link: "https://trello.com/b/pxHkpEws/sbm-simple-business-manager" },
-            { text: "Buy Now", link: "https://tecdiary.com/products/simple-business-manager" }
+            { text: 'Home', link: '/' },
+            { text: 'Report Bug', link: 'https://trello.com/b/pxHkpEws/sbm-simple-business-manager' },
+            { text: 'Buy Now', link: 'https://tecdiary.com/products/simple-business-manager' }
         ],
         sidebar: [
             {
-                title: "General",
+                title: 'General',
                 collapsable: true,
-                children: ["/", "1.0/credit/"]
+                children: ['/', 'v1/credit/']
             },
             {
-                title: "Installation",
+                title: 'Installation',
                 collapsable: true,
-                children: ["1.0/install/", "1.0/install/service"]
+                children: ['v1/install/', 'v1/install/service']
             },
             {
-                title: "Manual",
+                title: 'Manual',
                 collapsable: true,
                 children: [
-                    "1.0/guide/",
-                    "1.0/guide/products-customers-vendors",
-                    "1.0/guide/invoices-purchases",
-                    "1.0/guide/expenses-incomes",
-                    "1.0/guide/accounts-transfers",
-                    "1.0/guide/users-settings"
+                    'v1/guide/',
+                    'v1/guide/products-customers-vendors',
+                    'v1/guide/invoices-purchases',
+                    'v1/guide/expenses-incomes',
+                    'v1/guide/accounts-transfers',
+                    'v1/guide/users-settings'
                 ]
             },
             {
-                title: "FAQs",
+                title: 'FAQs',
                 collapsable: true,
-                children: ["1.0/faqs/"]
+                children: ['v1/faqs/']
             },
             {
-                title: "Developer Guide",
+                title: 'Developer Guide',
                 collapsable: true,
-                children: ["1.0/developer-guide/"]
+                children: ['v1/developer-guide/']
             }
         ],
         serviceWorker: {
             updatePopup: true,
             updatePopup: {
-                message: "A new version is available for documentation.",
-                buttonText: "Refresh"
+                message: 'A new version is available for documentation.',
+                buttonText: 'Refresh'
             }
         }
     }

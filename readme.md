@@ -1,6 +1,6 @@
 # Welcome to SBM Docs
 
-#### Simple Business Manager Documentation (version 1.0)
+#### Simple Business Manager Documentation (version 1.1)
 
 ## About SBM
 
