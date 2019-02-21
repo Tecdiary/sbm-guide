@@ -1,12 +1,14 @@
 # Welcome to SBM Docs
 
-#### Simple Business Manager Documentation (version 1.1)
+**Simple Business Manager Documentation**
+
+`version 1.1.2`
 
 ## About SBM
 
 **Simple Business Manager** (**SBM**) is all in once business solution developed by **Tecdiray IT Solutions**.
 
-SBM is developed using **vue** (front-end) and **laravel** (back-end). All licenses come with source code of back-end but the front-end source code is not included in regular license. If you need to modify the item's front-end for yourself or your clients then you will need to purchase developer or extended license.
+SBM is developed using **vue** (front-end) and **laravel** (back-end). All licenses come with source code of back-end but the front-end source code is not included in regular license. If you need to modify the item's front-end for yourself or your clients then you will need to purchase standard or extended license.
 
 This item is compatible with most of the tax systems including SST, VAT and state level taxes such as in _Canada_ & _India_.
 

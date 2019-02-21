@@ -14,6 +14,10 @@ You can have any number of products.
 
 Yes, as per license.
 
+### Can I sell the item?
+
+No. You can't sell the item under any license. However if you have purchased Extended license, you can use it for SaaS (software as a Service) or can create an end product that can be installed unlimited times. You will need separate license for each SaaS use or end product.
+
 ### Can I manage multiple business/companies?
 
 No, you can only manage single business with single installation.
@@ -44,7 +48,7 @@ SBM has option to cache the get requests only. You won't be able to post any dat
 
 ### Will I get the full source code?
 
-Yes, for Developer and Extended Licenses. For Regular license, you will only get back-end code and won't be able to modify the front-end.
+Yes, for Standard and Extended Licenses. For Regular license, you will only get back-end code and won't be able to modify the front-end.
 
 ### Can I can sell the products even if I don't have stock?
 

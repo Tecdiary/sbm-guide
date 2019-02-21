@@ -6,8 +6,8 @@
 
 ## Step 1: Preparation
 
-::: warning Developer License?
-If you have purchased developer license, please run install dependencies before following these steps by running `composer install`
+::: warning Standard License?
+If you have purchased standard license, please run install dependencies before following these steps by running `composer install`
 :::
 
 You can access the installer by added `/install` at the end of your domain i.e,
