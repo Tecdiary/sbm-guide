@@ -58,6 +58,7 @@ pre code {
 .warning {
     padding: 10px;
     border-radius: 10px;
+    margin-bottom: 10px;
     background: #ffc107;
     border-left: 5px solid #e0a800;
 }
@@ -65,6 +66,7 @@ pre code {
     color: #fff;
     padding: 10px;
     border-radius: 10px;
+    margin-bottom: 10px;
     background: #20c997;
     border-left: 5px solid #28a745;
 }

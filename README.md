@@ -16,14 +16,17 @@ We have tried to make this documentation as comprehensive as we can and will kee
 
 #### Some of the main features of the Simple Business Manager are as following:
 
+-   Sale module
+-   Purchase module
+-   Recurring Sale module
+-   Items & Item Kits module
+-   Expenses & Incomes module
 -   Built-in Event Calendar
 -   Built-in Accounting module
--   Customers & Vendors management
--   Invoice module
--   Purchase module
--   Products module
--   Recurring Invoice module
--   Expenses & Incomes module
+-   Multiple Taxes option
+-   Multiple Locations option
+-   Add Custom Fields as you need
+-   Customers & Suppliers management
 -   Payments module with online payment options
     -   Accept PayPAl payments
     -   Accept Credit Card Payments with any of the following
@@ -32,11 +35,11 @@ We have tried to make this documentation as comprehensive as we can and will kee
         -   PayPal Rest
         -   Authorize.net
 -   Custom Fields module to add extra fields to
-    -   Vendors
+    -   Suppliers
     -   Products
     -   Customers
     -   Income & Expenses
-    -   Invoices & Purchases
+    -   Sales & Purchases
     -   Custom Field with sort order & following types
         -   Text
         -   String
@@ -46,7 +49,7 @@ We have tried to make this documentation as comprehensive as we can and will kee
 -   Enable/disable stock feature (Inventory)
 -   Easily configure-able with Settings module
 -   Easily update email templates from settings
--   Comes with 3 Invoice/Purchase/Payment templates
+-   Comes with 3 Sale/Purchase/Payment templates
 -   Comes with 3 User Roles
     1.  Super (super admin)
         -   Can perform all actions
@@ -56,8 +59,8 @@ We have tried to make this documentation as comprehensive as we can and will kee
     3.  Staff (sales staff)
         -   Can't edit any data/records
         -   Can't delete any data/records
-        -   Can only view own added records for invoices, purchases & payments
-        -   Can add products, customers, vendors, invoices, purchases & payments
+        -   Can only view own added records for sales, purchases & payments
+        -   Can add products, customers, suppliers, sales, purchases & payments
 -   Progressive Web App, you can add it to home on your tablet/mobile devices and use as mobile application. All the get requests will be cached but you need to be online to make post/put/delete requests.
 
 ## Emails
@@ -70,9 +73,9 @@ System will send emails as following:
 
 1. **User Created** - User will be informed once created by super
 2. **Admin Reset User Password** - User will be informed once password reset by super
-3. **Invoice Created** - Customer will be informed that invoice has been created
-4. **Purchase Created** - Vendor will be informed that purchase has been created
-5. **Payment Created** - Customer/Vendor will be informed that payment has been created
+3. **Sale Created** - Customer will be informed that sale has been created
+4. **Purchase Created** - Supplier will be informed that purchase has been created
+5. **Payment Created** - Customer/Supplier will be informed that payment has been created
 6. **Payment Received** - Customer will be informed that payment has been received
 
 ::: warning Require feedback!
@@ -83,9 +86,9 @@ We will add more email options as we receive feedback from you.
 
 We has added 5 reports. For more reports, we need your feedback. Once we have enough data and finalized the reports, we will add them in future updates.
 
-1.  **General Report** displays total income, expense, invoice and purchase amounts.
+1.  **General Report** displays total income, expense, sale and purchase amounts.
 2.  **Customer Report** displays customer related general report.
-3.  **Vendor Report** displays vendor related general report.
+3.  **Supplier Report** displays supplier related general report.
 4.  **User Report** displays user related general report.
 5.  **Tax Report** displays tax related data with amounts.
 

@@ -10,6 +10,14 @@
 If you have purchased standard license, please run install dependencies before following these steps by running `composer install`
 :::
 
+::: warning Installing on cPanel?
+Please don't upload the files to `public_html` directory but create `sbm` directory one level above (outside public_html) in main directory that is not accessible by public and then upload the files to this `sbm` directory. Lastly create subdomain that points to the `sbm/public` directory. Now replace the `yourdomain.com` below with `subdomain.yourdoamin.com`
+:::
+
+::: tip
+If you need to install in as main domain `yourdomain.com` but not subdoamin `subdomain.yourdoamin.com`, you still follow the above instructions and then create symbolic link for public_html `ln -s /sbm/public /public_html`. You can check with your host about this and tell them that you was to secure Laravel installation.
+:::
+
 You can access the installer by added `/install` at the end of your domain i.e,
 
 -   `https:` // `yourdomain.com` / `install` for main domain installation

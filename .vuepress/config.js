@@ -1,7 +1,7 @@
 module.exports = {
     base: process.env.NODE_ENV === 'production' ? '/sbm-guide/' : '/',
     title: 'SBM Guide',
-    description: 'Simple Business Manager - SBM Documentation',
+    description: 'Simple Business Manager - MPS Documentation',
     head: [
         ['link', { rel: 'icon', href: `/assets/img/icon.png` }],
         ['link', { href: 'https://fonts.googleapis.com/css?family=Montserrat:300,400,400i', rel: 'stylesheet', type: 'text/css' }],
