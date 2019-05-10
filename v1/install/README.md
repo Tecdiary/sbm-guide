@@ -10,6 +10,10 @@
 If you have purchased standard license, please run install dependencies before following these steps by running `composer install`
 :::
 
+::: warning Requirements
+**PHP 7.1.3+ & MySQL 5.7.8+, Installer will check other requirements**
+:::
+
 ::: warning Installing on cPanel?
 Please don't upload the files to `public_html` directory but create `sbm` directory one level above (outside public_html) in main directory that is not accessible by public and then upload the files to this `sbm` directory. Lastly create subdomain that points to the `sbm/public` directory. Now replace the `yourdomain.com` below with `subdomain.yourdoamin.com`
 :::

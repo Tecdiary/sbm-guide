@@ -110,6 +110,12 @@ Link: [https://sbm.tecdiary.com/](https://sbm.tecdiary.com/)
 
 You can select super, admin or staff to login as and try our demo.
 
+## Requirements
+
+-   PHP 7.1.3+
+-   MySQL 5.7.8+
+-   Installer will check other requirements
+
 ## Feature Request
 
 Please use the [trello board](https://trello.com/b/pxHkpEws/sbm-simple-business-manager) to request feature for the future updates.
