@@ -39,6 +39,11 @@ module.exports = {
                 children: ['v1/install/', 'v1/install/service']
             },
             {
+                title: 'Update',
+                collapsable: true,
+                children: ['v1/update/']
+            },
+            {
                 title: 'Manual',
                 collapsable: true,
                 children: [

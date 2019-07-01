@@ -44,7 +44,7 @@ Once you unchecked the draft purchase, the purchase will be finalized and the gr
 
 ## Payments
 
-The payments are not attached to invoices and purchases but to customers and vendors. You can add payment from payments page or directly from `customers`/`vendors` page.
+The payments are not attached to invoices and purchases but to customers and vendors. You can add payment for invoice/purchase. If you want to add payment for more than one invoice/purchase, you can add payment from `customers`/`vendors` page and system will set the last invoices/purchases to paid as per payment. If the account of any `customer`/`vendor` is -ve then system will check all the new invoices/purchase and associate them to the last payments.
 
 ## Recurring Invoices
 

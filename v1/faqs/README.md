@@ -54,6 +54,16 @@ Yes, for Standard and Extended Licenses. For Regular license, you will only get 
 
 Yes, you can sell the product even if it's out of stock, system will set the quantity to -ve and adjust it on purchase.
 
+### How can I setup cron job?
+
+You can setup cron job as following:
+
+```
+* * * * * cd path/to/your/sbm && php artisan schedule:run >> /dev/null 2>&1
+```
+
+If you need help, please check with your host and ask them how you can setup cron job for Laravel, docs can be found at [https://laravel.com/docs/5.8/scheduling](https://laravel.com/docs/5.8/scheduling)
+
 ### Why I need to set cron job?
 
 Cron job need to be set to generate recurring invoices and send payment requests for due payments.
