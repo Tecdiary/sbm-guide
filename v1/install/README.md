@@ -73,3 +73,14 @@ We are almost done, it's time to finalize the installation. If you need some dem
 ::: tip Can I start again?
 Yes, if there is any issue on any step and you can't pass then you can cancel and start over again with new database or settings.
 :::
+
+## After Install
+
+**After install, please add system level data as following:**
+
+1. **Accounts** (add at least one)
+2. **Settings** app settings, invoice settings & system settings (specially email settings)
+3. **Categories** (add at least one)
+4. **Taxes** (add at least one)
+5. **Customers** (add at least one)
+6. **Vendors** (add at least one)

@@ -132,6 +132,12 @@ You shouldn't get such error if the server requirements were fine while installi
 500 are server internal errors and you can check your server error log to get more details of the error, if you are on live server and not sure, you
 can check with your host. Once you have the error details please email to support@tecdiary.com with details, we will check and suggest you the solution.
 
+### MySQL cannot connect via "localhost" but only "127.0.0.1"?
+
+MySQL will try to connect to the unix socket if you tell it to connect to "localhost". If you tell it to connect to 127.0.0.1 you are forcing it to connect to the network socket. So probably you have MySQL configured to only listen to the network socket and not to the file system socket.
+
+What exactly is wrong with your unix socket is hard to tell. But I recommend you to [read this page](http://dev.mysql.com/doc/refman/5.5/en/can-not-connect-to-server.html) on the MySQL reference guide.
+
 ### Why I can't send emails?
 
 Please double check your email configuration details in system settings.
