@@ -106,7 +106,7 @@ We will be working closely with all of you to resolve the issues/bugs/error as s
 
 ## Demo Details
 
-Link: [https://sbm.tecdiary.com/](https://sbm.tecdiary.com/)
+Link: [https://sbm.tecdiary.net/](https://sbm.tecdiary.net/)
 
 You can select super, admin or staff to login as and try our demo.
 

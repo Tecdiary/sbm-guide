@@ -11,7 +11,7 @@ module.exports = {
         ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
         ['link', { rel: 'apple-touch-icon', href: `/assets/img/icon-152.png` }],
         ['meta', { name: 'msapplication-TileImage', content: '/assets/img/icon-144.png' }],
-        ['meta', { name: 'msapplication-TileColor', content: '#3273dc' }]
+        ['meta', { name: 'msapplication-TileColor', content: '#3273dc' }],
     ],
     dest: 'docs',
     serviceWorker: true,
@@ -25,23 +25,23 @@ module.exports = {
         nav: [
             { text: 'Home', link: '/' },
             { text: 'Report Bug', link: 'https://trello.com/b/pxHkpEws/sbm-simple-business-manager' },
-            { text: 'Buy Now', link: 'https://tecdiary.com/products/simple-business-manager' }
+            { text: 'Buy Now', link: 'https://tecdiary.net/products/simple-business-manager-invoicing-solution' },
         ],
         sidebar: [
             {
                 title: 'General',
                 collapsable: true,
-                children: ['/', 'v1/credit/']
+                children: ['/', 'v1/credit/'],
             },
             {
                 title: 'Installation',
                 collapsable: true,
-                children: ['v1/install/', 'v1/install/service']
+                children: ['v1/install/', 'v1/install/service'],
             },
             {
                 title: 'Update',
                 collapsable: true,
-                children: ['v1/update/']
+                children: ['v1/update/'],
             },
             {
                 title: 'Manual',
@@ -52,26 +52,26 @@ module.exports = {
                     'v1/guide/invoices-purchases',
                     'v1/guide/expenses-incomes',
                     'v1/guide/accounts-transfers',
-                    'v1/guide/users-settings'
-                ]
+                    'v1/guide/users-settings',
+                ],
             },
             {
                 title: 'FAQs',
                 collapsable: true,
-                children: ['v1/faqs/']
+                children: ['v1/faqs/'],
             },
             {
                 title: 'Developer Guide',
                 collapsable: true,
-                children: ['v1/developer-guide/']
-            }
+                children: ['v1/developer-guide/'],
+            },
         ],
         serviceWorker: {
             updatePopup: true,
             updatePopup: {
                 message: 'A new version is available for documentation.',
-                buttonText: 'Refresh'
-            }
-        }
-    }
+                buttonText: 'Refresh',
+            },
+        },
+    },
 };
